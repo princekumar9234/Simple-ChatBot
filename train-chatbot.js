@@ -13,6 +13,7 @@ const trainingData = [
   // About the Bot
   { keyword: 'who are you', response: 'I am an AI Chatbot Assistant, created to help answer your questions and have conversations with you!' },
   { keyword: 'your name', response: 'I am an AI Assistant. You can call me ChatBot!' },
+  { keyword: 'what is my friends name', response: 'master your friends name is piyush,ankesh and ayush' },
   { keyword: 'how old are you', response: 'I was just created recently, so I\'m quite young in bot years!' },
   
   // Greetings (additional)
