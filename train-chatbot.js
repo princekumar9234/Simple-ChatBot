@@ -53,15 +53,6 @@ const trainingData = [
     keyword: "are you ok",
     response: "Yes, I'm functioning perfectly! Thanks for checking!",
   },
-  {
-    keyword: "happy",
-    response: "I'm glad you're happy! Happiness is contagious! 😊",
-  },
-  {
-    keyword: "sad",
-    response:
-      "I'm sorry you're feeling sad. Is there anything I can help you with?",
-  },
 
   // Capabilities
   {
@@ -80,37 +71,14 @@ const trainingData = [
       "I use keyword matching to understand your questions and provide relevant answers from my knowledge base!",
   },
 
-  // General Knowledge - India
-  { keyword: "pm", response: "The Prime Minister of India is Narendra Modi." },
-  {
-    keyword: "president",
-    response: "The President of India is Droupadi Murmu.",
-  },
-  { keyword: "capital", response: "The capital of India is New Delhi." },
-  {
-    keyword: "india",
-    response:
-      "India is a diverse country in South Asia with a rich cultural heritage and history.",
-  },
-  {
-    keyword: "taj mahal",
-    response:
-      "The Taj Mahal is a beautiful white marble mausoleum located in Agra, India. It was built by Emperor Shah Jahan.",
-  },
-  {
-    keyword: "independence day",
-    response:
-      "India celebrates Independence Day on August 15th, commemorating independence from British rule in 1947.",
-  },
-
   // Technology
   {
-    keyword: "computer",
+    keyword: "what is computer",
     response:
       "A computer is an electronic device that processes data and performs tasks according to instructions.",
   },
   {
-    keyword: "internet",
+    keyword: "what is internet",
     response:
       "The Internet is a global network connecting millions of computers worldwide.",
   },
@@ -119,219 +87,30 @@ const trainingData = [
     response:
       "AI (Artificial Intelligence) is the simulation of human intelligence by machines, especially computer systems.",
   },
+
   {
-    keyword: "programming",
+    keyword: "what is programming language",
     response:
       "Programming is the process of creating instructions for computers to follow. Popular languages include Python, JavaScript, and Java.",
   },
+
   {
-    keyword: "javascript",
+    keyword: "what is javascript",
     response:
       "JavaScript is a popular programming language used for web development, both frontend and backend!",
   },
   {
-    keyword: "python",
+    keyword: "what is python",
     response:
       "Python is a versatile, beginner-friendly programming language used for web development, data science, AI, and more!",
   },
 
-  // Education
+  //java related
   {
-    keyword: "education",
+    keyword: "what is java",
     response:
-      "Education is the key to success and personal development. It empowers individuals and societies!",
+      "Java is a popular and powerful programming language, created in 1995.It is owned by Oracle, and more than 3 billion devices run Java.",
   },
-  {
-    keyword: "school",
-    response:
-      "School is where students learn fundamental knowledge and skills for their future.",
-  },
-  {
-    keyword: "college",
-    response:
-      "College provides higher education and specialized training in various fields of study.",
-  },
-  {
-    keyword: "study",
-    response:
-      "Studying regularly and staying focused are keys to academic success!",
-  },
-
-  // Science
-  {
-    keyword: "science",
-    response:
-      "Science is the systematic study of the natural world through observation and experimentation.",
-  },
-  {
-    keyword: "physics",
-    response:
-      "Physics is the study of matter, energy, and the fundamental forces of nature.",
-  },
-  {
-    keyword: "chemistry",
-    response:
-      "Chemistry is the study of substances, their properties, and how they interact with each other.",
-  },
-  {
-    keyword: "biology",
-    response:
-      "Biology is the study of living organisms and their vital processes.",
-  },
-
-  // Math
-  {
-    keyword: "math",
-    response:
-      "Mathematics is the study of numbers, quantities, shapes, and patterns. It's the language of the universe!",
-  },
-  {
-    keyword: "algebra",
-    response:
-      "Algebra is a branch of mathematics dealing with symbols and the rules for manipulating those symbols.",
-  },
-
-  // Sports
-  {
-    keyword: "cricket",
-    response:
-      "Cricket is a popular sport in India and many other countries, played between two teams of 11 players.",
-  },
-  {
-    keyword: "football",
-    response:
-      "Football (soccer) is the world's most popular sport, played by millions worldwide!",
-  },
-  {
-    keyword: "sports",
-    response:
-      "Sports are physical activities that promote health, teamwork, and competition!",
-  },
-
-  // Food
-  {
-    keyword: "food",
-    response:
-      "India is famous for its diverse and delicious cuisine, including biryani, curry, dosa, and more!",
-  },
-  {
-    keyword: "pizza",
-    response:
-      "Pizza is a popular Italian dish loved worldwide, with various toppings and styles!",
-  },
-  {
-    keyword: "recipe",
-    response:
-      "I don't have specific recipes, but I can tell you that cooking is both an art and a science!",
-  },
-
-  // Time & Date
-  {
-    keyword: "time",
-    response:
-      "I don't have access to real-time data, but you can check your device for the current time!",
-  },
-  {
-    keyword: "date",
-    response:
-      "I don't have access to real-time data, but you can check your device for today's date!",
-  },
-  {
-    keyword: "day",
-    response: "Every day is a new opportunity to learn and grow!",
-  },
-
-  // Weather
-  {
-    keyword: "weather",
-    response:
-      "I don't have real-time weather data, but I hope it's nice where you are!",
-  },
-  {
-    keyword: "rain",
-    response:
-      "Rain is essential for life on Earth, providing water for plants, animals, and humans!",
-  },
-  {
-    keyword: "sunny",
-    response:
-      "Sunny days are great for outdoor activities! Don't forget your sunscreen!",
-  },
-
-  // Entertainment
-  {
-    keyword: "movie",
-    response:
-      "Movies are a great form of entertainment! What's your favorite genre?",
-  },
-  {
-    keyword: "music",
-    response: "Music is a universal language that brings people together!",
-  },
-  {
-    keyword: "book",
-    response:
-      "Reading books is a wonderful way to gain knowledge and escape into different worlds!",
-  },
-
-  // Jokes & Fun
-  {
-    keyword: "joke",
-    response:
-      "Why did the programmer quit his job? Because he didn't get arrays! 😄",
-  },
-  {
-    keyword: "funny",
-    response:
-      "Want to hear something funny? I tried to catch fog yesterday... I mist! 😂",
-  },
-  {
-    keyword: "laugh",
-    response: "Laughter is the best medicine! Keep smiling! 😊",
-  },
-
-  // Motivation
-  {
-    keyword: "motivation",
-    response: "Believe in yourself! You are capable of amazing things!",
-  },
-  {
-    keyword: "success",
-    response:
-      "Success is the result of hard work, dedication, and perseverance!",
-  },
-  {
-    keyword: "dream",
-    response: "Dream big and work hard to make those dreams a reality!",
-  },
-  {
-    keyword: "inspire",
-    response:
-      "Be the change you wish to see in the world! You can inspire others!",
-  },
-
-  // Common Questions
-  {
-    keyword: "why",
-    response:
-      "That's a great question! The answer depends on the context. Can you be more specific?",
-  },
-  {
-    keyword: "how",
-    response:
-      "I'd be happy to help! Can you provide more details about what you'd like to know?",
-  },
-  {
-    keyword: "when",
-    response:
-      "Timing can vary depending on what you're asking about. Can you clarify?",
-  },
-  {
-    keyword: "where",
-    response:
-      "Location matters! Can you tell me more about what you're looking for?",
-  },
-
   // Politeness
   {
     keyword: "please",
@@ -350,41 +129,6 @@ const trainingData = [
     keyword: "catch you later",
     response: "Catch you later! Have a great day!",
   },
-
-  // Gratitude (additional)
-  { keyword: "appreciate", response: "I appreciate you too! Happy to help!" },
-  {
-    keyword: "grateful",
-    response: "I'm glad I could help! That's what I'm here for!",
-  },
-
-  // Emotions
-  {
-    keyword: "love",
-    response: "Love is a beautiful emotion that connects us all!",
-  },
-  {
-    keyword: "hate",
-    response:
-      "It's okay to have negative feelings sometimes. Is there something bothering you?",
-  },
-  {
-    keyword: "angry",
-    response: "I understand you're upset. Take a deep breath. How can I help?",
-  },
-  {
-    keyword: "excited",
-    response: "That's wonderful! Excitement is a great feeling!",
-  },
-
-  // Random
-  { keyword: "cool", response: "Thanks! You're pretty cool too! 😎" },
-  { keyword: "awesome", response: "Awesome indeed! Glad you think so!" },
-  {
-    keyword: "amazing",
-    response: "Amazing is right! Life is full of amazing things!",
-  },
-  { keyword: "wow", response: "Wow indeed! What caught your attention?" },
 
   // Personal Information (Example - Modify these!)
   {
