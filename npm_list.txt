@@ -1,0 +1,14 @@
+﻿chatbot-web-application@1.0.0 D:\MAJOR-PROJECT\Simple-Chat
+Γö£ΓöÇΓöÇ bcryptjs@3.0.3
+Γö£ΓöÇΓöÇ body-parser@2.2.2
+Γö£ΓöÇΓöÇ connect-mongo@6.0.0
+Γö£ΓöÇΓöÇ dotenv@17.2.3
+Γö£ΓöÇΓöÇ ejs@4.0.1
+Γö£ΓöÇΓöÇ express-session@1.19.0
+Γö£ΓöÇΓöÇ express@5.2.1
+Γö£ΓöÇΓöÇ mongoose@9.1.5
+Γö£ΓöÇΓöÇ morgan@1.10.1
+Γö£ΓöÇΓöÇ nodemon@3.1.11
+Γö£ΓöÇΓöÇ passport-google-oauth20@2.0.0
+ΓööΓöÇΓöÇ passport@0.7.0
+

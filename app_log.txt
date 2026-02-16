@@ -1,0 +1,6 @@
+﻿[dotenv@17.2.3] injecting env (3) from .env -- tip: Γ£à audit secrets and track compliance: https://dotenvx.com/ops
+ΓÜá∩╕Å Google Client ID/Secret not found. Real Google Login will not work.
+≡ƒÜÇ Server running on http://localhost:3000
+≡ƒô▒ Environment: development
+Γ£à MongoDB connected successfully
+≡ƒº╣ Chat history cleared successfully

@@ -1,0 +1,60 @@
+﻿[dotenv@17.2.3] injecting env (3) from .env -- tip: Γ£à audit secrets and track compliance: https://dotenvx.com/ops
+Testing MongoStore.create with URL: mongodb://localhost:27017/chatbot_db
+node : 
+MongoStore.create 
+failed: TypeError: 
+MongoStore.create is 
+not a function
+At line:1 char:1
++ node test_mongo.js 
+2>&1 | Out-File 
+-FilePath 
+mongo_crash.txt 
+-Encodin ...
++ ~~~~~~~~~~~~~~~~~~~
+~~~~
+    + CategoryInfo   
+           : NotSpe  
+  cified: (MongoSt   
+ ore.crea... not     
+a function:Strin    
+g) [], RemoteExc    
+eption
+    + FullyQualified 
+   ErrorId : Native  
+  CommandError
+ 
+    at 
+Object.<anonymous> (D
+:\MAJOR-PROJECT\Simpl
+e-Chat\test_mongo.js:
+5:30)
+    at 
+Module._compile (node
+:internal/modules/cjs
+/loader:1761:14)
+    at Object..js (no
+de:internal/modules/c
+js/loader:1893:10)
+    at Module.load (n
+ode:internal/modules/
+cjs/loader:1481:32)
+    at Module._load (
+node:internal/modules
+/cjs/loader:1300:12)
+    at TracingChannel
+.traceSync (node:diag
+nostics_channel:328:1
+4)
+    at 
+wrapModuleLoad (node:
+internal/modules/cjs/
+loader:245:24)
+    at Module.execute
+UserEntryPoint [as 
+runMain] (node:intern
+al/modules/run_main:1
+54:5)
+    at node:internal/
+main/run_main_module:
+33:47

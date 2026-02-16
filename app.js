@@ -31,7 +31,7 @@ app.use(session({
   secret: process.env.SESSION_SECRET || 'chatbot_secret_key',
   resave: false,
   saveUninitialized: false,
-  store: MongoStore.create({ 
+  store: MongoStore.default.create({ 
     mongoUrl: process.env.MONGODB_URI 
   }),
   cookie: { maxAge: 1000 * 60 * 60 * 24 } // 1 day
