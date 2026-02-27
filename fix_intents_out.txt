@@ -1,8 +1,0 @@
-﻿[dotenv@17.2.3] injecting env (3) from .env -- tip: ≡ƒöæ add access controls to secrets: https://dotenvx.com/ops
-Connected to MongoDB
-Added missing intent: hello
-Added missing intent: hi
-Added missing intent: hey
-Added missing intent: thanks
-Added missing intent: thank you
-Added missing intent: bye

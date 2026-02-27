@@ -1,24 +1,20 @@
-# Dependencies
+# Node.js
 node_modules/
-
-# Environment variables
+dist/
+build/
 .env
 
 # Logs
-logs/
-*.log
 npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
-# OS files
-.DS_Store
-Thumbs.db
-
-# IDE
+# Editor
 .vscode/
 .idea/
 *.swp
 *.swo
 
-# Build files
-dist/
-build/
+# OS
+.DS_Store
+Thumbs.db

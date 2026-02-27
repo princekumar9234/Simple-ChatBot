@@ -1,3 +1,0 @@
-﻿[dotenv@17.2.3] injecting env (3) from .env -- tip: ΓÜÖ∩╕Å  specify custom .env file path with { path: '/custom/path/.env' }
-Connecting to: mongodb://localhost:27017/chatbot_db
-Mongoose connected

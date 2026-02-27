@@ -1,1 +1,0 @@
-﻿Found. Redirecting to /auth/login

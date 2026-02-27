@@ -1,2 +1,0 @@
-﻿[dotenv@17.2.3] injecting env (3) from .env -- tip: ≡ƒöä add secrets lifecycle management: https://dotenvx.com/ops
-Testing MongoStore.create with URL: mongodb://localhost:27017/chatbot_db

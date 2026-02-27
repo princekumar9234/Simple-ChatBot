@@ -1,6 +1,0 @@
-﻿[dotenv@17.2.3] injecting env (3) from .env -- tip: ≡ƒ¢á∩╕Å  run anywhere with `dotenvx run -- yourcommand`
-List of users:
-Username: test_user_1769766813405, Password (Hashed): $2b$10$sES8hkW9lvDklfD.Olt5yOyt9xDukvqPytO..twIZKmGVEfFeQJrq
-Username: prince, Password (Hashed): $2b$10$bKvgT6xo9xveiQYgVZlVyOgKx9rVflLB7IDzUpM8fbmBamjteCOjq
-Username: GoogleUser, Password (Hashed): $2b$10$/dNCUtL8yrPl4x65QesrdOfsXF02IN/DoVMuYv9CEKGS38qlOtdKC
-Username: GithubUser, Password (Hashed): $2b$10$rSAl2AQ29CRxe01kAikiuO7RXc4ra3kz1fUhlqBysF7gYnyTE/2bi
