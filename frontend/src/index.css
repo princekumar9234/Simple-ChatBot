@@ -1231,7 +1231,29 @@ body:not(.dark-theme) .row-start {
 }
 
 .logo-icon {
-  -webkit-text-fill-color: initial;
+  width: 40px;
+  height: 40px;
+  background: var(--primary-gradient);
+  color: white;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  font-size: 1.2rem;
+  box-shadow: 0 4px 12px rgba(99, 102, 241, 0.3);
+  -webkit-text-fill-color: initial !important;
+}
+
+.logo-icon-small {
+  width: 32px;
+  height: 32px;
+  background: var(--primary-gradient);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  font-size: 1rem;
 }
 
 .nav-actions {

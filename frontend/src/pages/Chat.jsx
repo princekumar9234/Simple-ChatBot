@@ -149,7 +149,7 @@ export default function Chat({ user, setUser, isDarkMode, toggleTheme }) {
           <header className="chat-header">
             <div className="header-content">
               <div className="bot-avatar">
-                <img src="/images/logo.jpg" alt="Bot Logo" onError={e => { e.target.style.display='none'; }} />
+                <div className="logo-icon-small">✨</div>
               </div>
               <div className="header-info">
                 <h1 className="bot-name">Arise</h1>

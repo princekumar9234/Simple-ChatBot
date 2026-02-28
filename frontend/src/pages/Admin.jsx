@@ -76,8 +76,8 @@ export default function Admin() {
     <div className="landing-container admin-page">
       <nav className="landing-nav">
         <Link to="/" className="nav-logo">
-          <div className="logo-icon">⚙️</div>
-          <span>Training Center</span>
+          <div className="logo-icon">✨</div>
+          <span>Arise AI</span>
         </Link>
         <div className="nav-actions">
           <Link to="/chat" className="nav-btn secondary">Back to Chat</Link>
