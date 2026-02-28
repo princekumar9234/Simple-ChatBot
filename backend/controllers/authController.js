@@ -60,6 +60,11 @@ exports.register = async (req, res) => {
       updateData.profileImage = `/uploads/profile/${req.file.filename}`;
     }
 
+    const userCount = await User.countDocuments();
+    if (userCount === 0) {
+      updateData.role = 'admin';
+    }
+
     const user = await User.create(updateData);
 
     req.session.user = {
@@ -67,7 +72,8 @@ exports.register = async (req, res) => {
       username: user.username,
       displayName: user.displayName,
       email: user.email,
-      profileImage: user.profileImage
+      profileImage: user.profileImage,
+      role: user.role
     };
 
     return res.json({
@@ -77,7 +83,8 @@ exports.register = async (req, res) => {
         username: user.username,
         displayName: user.displayName,
         email: user.email,
-        profileImage: user.profileImage
+        profileImage: user.profileImage,
+        role: user.role
       }
     });
   } catch (error) {
@@ -102,16 +109,20 @@ exports.login = async (req, res) => {
       id: user._id,
       username: user.username,
       displayName: user.displayName,
-      email: user.email
+      email: user.email,
+      profileImage: user.profileImage,
+      role: user.role
     };
 
     return res.json({
       success: true,
-      user: {
-        id: user._id,
-        username: user.username,
+      user: { 
+        id: user._id, 
+        username: user.username, 
+        displayName: user.displayName,
         email: user.email,
-        displayName: user.displayName
+        profileImage: user.profileImage,
+        role: user.role
       }
     });
   } catch (error) {

@@ -4,6 +4,7 @@ import Landing from './pages/Landing';
 import Login from './pages/Login';
 import Register from './pages/Register';
 import Chat from './pages/Chat';
+import Admin from './pages/Admin';
 
 function App() {
   const [user, setUser] = useState(null);
@@ -62,6 +63,10 @@ function App() {
         <Route
           path="/register"
           element={!user ? <Register setUser={setUser} /> : <Navigate to="/chat" />}
+        />
+        <Route
+          path="/admin"
+          element={user?.role === 'admin' ? <Admin /> : <Navigate to="/" />}
         />
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>

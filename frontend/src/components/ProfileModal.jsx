@@ -138,6 +138,7 @@ export default function ProfileModal({ user, setUser, onClose, isDarkMode, toggl
                 <h2 className="profile-display-name">{user?.displayName || user?.username}</h2>
                 <div className="badge-row">
                   <span className="user-badge silver">Member</span>
+                  {user?.role === 'admin' && <span className="user-badge admin-badge">ADMIN</span>}
                   <span className="user-badge">{provider}</span>
                 </div>
               </div>
@@ -180,6 +181,23 @@ export default function ProfileModal({ user, setUser, onClose, isDarkMode, toggl
                   </div>
                 </div>
               </div>
+
+              {user?.role === 'admin' && (
+                <div className="settings-section">
+                  <div className="section-title">Administrator</div>
+                  <div className="glass-settings-card">
+                    <div className="setting-row clickable" onClick={() => { handleClose(); window.location.href='/admin'; }}>
+                      <div className="row-start">
+                        <div className="row-icon">🧠</div>
+                        <span>Train Chatbot</span>
+                      </div>
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" style={{width: 18, height: 18}}>
+                        <path d="M5 12h14M12 5l7 7-7 7"/>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              )}
 
               <div className="settings-section">
                 <div className="section-title">Account Session</div>

@@ -19,7 +19,10 @@ export default function Landing({ user, isDarkMode, toggleTheme }) {
             {isDarkMode ? '☀️' : '🌙'}
           </button>
           {user ? (
-            <Link to="/chat" className="nav-btn primary">Go to Chat</Link>
+            <>
+              {user.role === 'admin' && <Link to="/admin" className="nav-btn secondary">Train Bot</Link>}
+              <Link to="/chat" className="nav-btn primary">Go to Chat</Link>
+            </>
           ) : (
             <>
               <Link to="/login" className="nav-btn secondary">Login</Link>
